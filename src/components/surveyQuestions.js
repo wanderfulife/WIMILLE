@@ -10,13 +10,9 @@ export const templateSurveyQuestions = [
     {
         id: "POSTE",
         text: "Poste d'enquête :",
-        type: 'singleChoice',
-        options: [
-            { id: 1, text: "Quai 1 - Direction Calais", next: "Q1" },
-            { id: 2, text: "Quai 2 - Direction Boulogne", next: "Q1" },
-            { id: 3, text: "Hall d'entrée", next: "Q1" },
-            { id: 4, text: "Parking", next: "Q1" }
-        ]
+        type: 'freeText',
+        freeTextPlaceholder: "Indiquez votre poste",
+        next: "Q1"
     },
 
     // Q1 - Origin commune
